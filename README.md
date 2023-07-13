@@ -27,12 +27,6 @@ HUGGINGFACEHUB_API_TOKEN = ""
 INSPIREDCO_API_KEY = ""
 ```
 
-*Recommended to use*
-```
-
-```
-
-
 ## Credits
 
 The F-One Chatbot was developed by [Filippo Florindi](https://github.com/filippoflorindi).
