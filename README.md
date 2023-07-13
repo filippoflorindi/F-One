@@ -65,6 +65,48 @@ Pre-Requisites:
 Install dependencies:
 ```pip install -r requirements.txt```
 
+## Directory structure
+
+```
+.
+
+├── F-One
+│   ├── Google Cloud Credentials
+│   |   └── dialogflow_CX_agent_secrets.json
+│   ├── config.py
+│   ├── emotion_detection.py
+│   ├── evaluation.py
+│   ├── evaluation_unieval.ipynb
+│   ├── example.env
+│   ├── langchain_agent.py
+│   ├── main.py
+│   ├── process_pdf.py
+│   └── vector_store.py
+├── data
+│   ├── fia_2023_formula_1_sporting_regulations_-_issue_4_-_2023-02-22.pdf
+│   ├── fia_2023_formula_1_technical_regulations_-_issue_5_-_2023-02-22.pdf
+│   └── fia_formula_1_financial_regulations_iss.14_.pdf
+├── docs
+│   ├── images
+│   |   ├── F-One_Schema.png
+│   |   ├── F-One_Workflow.png
+│   |   ├── F-One_Workflow_Horizontal.png
+│   |   ├── Website_with_F-One.png
+│   |   └── Website_with_F-One_Zoom.png
+│   └── F-One Presentation.pdf
+├── vector store
+│   ├── index.faiss
+│   └── index.pkl
+├── website
+│   ├── images
+│   |   └── 2180263.png
+│   ├── index.html
+│   └── style.css
+├── README.md
+└── requirements.txt
+```
+
+
 ## Credits
 
 The F-One Chatbot was developed by [Filippo Florindi](https://github.com/filippoflorindi).
