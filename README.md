@@ -1,9 +1,7 @@
 # F-One
 Emotional Chatbot AI Question &amp; Answer Text-Generation Knowledge-based on Formula 1 sport.
 
-# Installation
-
-*If not you can following to steps below*
+**
 
 ## Dev-Setup
 Prerequisites:
@@ -15,7 +13,6 @@ Prerequisites:
 
 ### Setup
 ```
-
 ```
 
 Reference [example.env](https://github.com/filippoflorindi/F-One/blob/main/F-One/example.env) to create `.env` file
