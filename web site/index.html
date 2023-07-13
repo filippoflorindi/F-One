@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="utf-8">
+  <!--  Load CSS in Flask with html-->
+  <link rel="stylesheet" href="/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+            <li class="link"><a href="#">projects</a></li>
+            <li class="link"><a href="#">about</a></li>
+            <li class="link"><a href="#">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- dialogflow -->
+    <script src=""></script>
+    <df-messenger
+    df-cx="true"
+    location=""
+    chat-title="F-One"
+    agent-id=""
+    language-code="en"
+    ></df-messenger>
+
+    <!-- load javascript after loading all html content -->
+    <!--<script src="script/script.js"></script>-->
+</body>
+</html>

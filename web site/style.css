@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background: #ffffff;
+    font-family: sans-serif;
+    background-image: url('images/2180263.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: #ffffff;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #000000;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+
+
+
+df-messenger {
+--df-messenger-bot-message: #6b1111;
+--df-messenger-button-titlebar-color: #c41818;
+--df-messenger-chat-background-color: #fafafa;
+--df-messenger-font-color: white;
+--df-messenger-send-icon: #c41818;
+--df-messenger-user-message: #000000;
+}
