@@ -8,9 +8,34 @@ capable of handling conversations with users. The Chatbot is called “F-One” 
 questions related to the sport of Formula 1. Specifically, it is designed to provide information about the 
 regulations of F1 and past as well as recent news.
 
+---
 
-![alt text](https://github.com/[filippoflorindi]/[F-One]/blob/[main]/image.jpg?raw=true)
+<img
+  src="docs/images/Website_with_F-One.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
+---
+
+## Project description
+
+**Workflow**
+
+  <p align="center">
+  <img src="docs/images/F-One_Workflow.png" width="400">
+  </p>
+
+As the picture shows, the project may be divided into seven main phases:
+
+ * [**Phase 1**: Training of the model](#phase-1-training-of-the-model)
+ * [**Phase 2**: Input image segmentation and digits extraction](#phase-2-input-image-segmentation-and-digits-extraction)
+ * [**Phase 3**: Long number recognition](#phase-3-long-number-recognition)
+ * [**Phase 4**: Long number recognition](#phase-3-long-number-recognition)
+ * [**Phase 5**: Long number recognition](#phase-3-long-number-recognition)
+ * [**Phase 6**: Long number recognition](#phase-3-long-number-recognition)
+ * [**Phase 7**: Long number recognition](#phase-3-long-number-recognition)
+ 
 
 ## Dev-Setup
 Prerequisites:
@@ -19,6 +44,7 @@ Prerequisites:
 - [OpenAI API Key](https://platform.openai.com/account/api-keys) - Billing Required
 - [Hugging Face Hub API Token](https://huggingface.co/docs/hub/index) - Free
 - [Inspiredco API Key](https://docs.inspiredco.ai/critique/getting_started.html) - Free
+- [Dialogflow 
 
 ## Requirements
 Install dependencies:
