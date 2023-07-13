@@ -28,24 +28,26 @@ As the picture shows, the project may be divided into seven main phases:
  * [**Phase 7**: Response Quality Evaluation](#phase-7-response-quality-evaluation)
  
 ### Phase 1: PDF Processing
+In this phase, I processed the PDF documents related to the Formula 1 regulations to extract relevant information. The algorithm implemented to extract the relevant text from 
+the PDFs is present in [`process_pdf.py`](https://github.com/filippoflorindi/F-One/blob/main/F-One/process_pdf.py).
 
 ### Phase 2: Vector Store Creation
+In this phase, I used the information extracted from the PDF documents to create a Vector Store. This store serves as a knowledge base for F-One and enables quick access to the necessary information during conversations. In the creation of the Vector Store for Formula 1 regulation information, I used the *Text_Embedding-Ada-002* model from OpenAI as embedding model and *FAISS (Facebook AI Similarity Search)* Vector Store as system. The script that runs this part is [`vector_store.py`](https://github.com/filippoflorindi/F-One/blob/main/F-One/vector_store.py).
 
 ### Phase 3: LangChain Agent Development
+This phase involved the development of the LangChain Agent. This process included implementing the Information-Retrieval system and applying the EmoRoBERTa model. The objective was to integrate these components with the *GPT-3.5-Turbo* (ChatGPT) model from OpenAI through the Prompt Engineering process using LangChain. The script that runs this part is [`langchain_agent.py`](https://github.com/filippoflorindi/F-One/blob/main/F-One/langchain_agent.py).
 
 ### Phase 4: Dialogflow CX Agent Initialization
+In this phase, I initialized the Dialogflow CX Agent. This agent is responsible for managing conversations with users and coordinating the responses provided by F-One.
 
 ### Phase 5: Flask Application Creation
+This phase involved creating a Flask application that integrates the LangChain Agent with the Dialogflow CX Agent through a Webhook. 
 
 ### Phase 6: Website Creation
+In this phase, I created the F-One website and subsequently made it public via GitHub Pages. The website provides a user-friendly interface for interacting with F-One and obtaining desired information about Formula 1.
 
 ### Phase 7: Response Quality Evaluation
-
----
-
-  <p align="center">
-  <img src="docs/images/Website_with_F-One.png" width="1000">
-  </p>
+Finally, in the conclusive and seventh step, I conducted an evaluation of the quality of the responses provided by F-One regarding questions about the Formula 1 regulations. This step allowed for assessing the effectiveness of the Chatbot and making any necessary improvements.
   
 ---
 
@@ -63,16 +65,9 @@ Prerequisites:
 Install dependencies:
 ```pip install -r requirements.txt```
 
-## Project pipeline
-1. [`preprocessing.py`](https://github.com/fp1acm8/SER/blob/main/preprocessing.py):\
-Load the dataset and extract the audio features through the `librosa` library. Synthetic data were created in order to increase the number of audio samples through data augmentation techniques.
-2. [`train.py`](https://github.com/fp1acm8/SER/blob/main/train.py):\
-Train the MLP classifier defined in [`modules/mlp.py`](https://github.com/fp1acm8/SER/blob/main/models/mlp.py). But first the data must be prepared so that it can be input to the neural network. To do this, a special function called [`data_preparation()`](https://github.com/fp1acm8/SER/blob/main/modules/data_preparation.py) has been created.
-3. [`predict.py`](https://github.com/fp1acm8/SER/blob/main/predict.py):\
-Make predictions on data never seen by the model. Summary data of the predictions made can be found in the folder [`out/`](https://github.com/fp1acm8/SER/blob/main/out/).
 
 
-Reference [example.env](https://github.com/filippoflorindi/F-One/blob/main/F-One/example.env) to create `.env` file
+Reference [`example.env`](https://github.com/filippoflorindi/F-One/blob/main/F-One/example.env) to create `.env` file
 ```python
 GOOGLE_CSE_ID = ""
 GOOGLE_API_KEY = ""
