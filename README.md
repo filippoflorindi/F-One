@@ -2,20 +2,17 @@
 > Automatic Text-Generation with Deep Learning Models: a Chatbot based application.
 
 
-This project aims to present the Conversational Assistant 
-that we have developed, an Emotional Chatbot AI Question & Answer Text-Generation Knowledge-based, 
+This project aims to develop a Conversational Assistant, in particular an Emotional Chatbot AI Question & Answer Text-Generation Knowledge-based, 
 capable of handling conversations with users. The Chatbot is called “F-One” and is able to answer all 
 questions related to the sport of Formula 1. Specifically, it is designed to provide information about the 
 regulations of F1 and past as well as recent news.
 
 ---
 
-<img
-  src="docs/images/Website_with_F-One.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
-
+  <p align="center">
+  <img src="docs/images/Website_with_F-One.png" width="1000">
+  </p>
+  
 ---
 
 ## Project description
@@ -23,19 +20,33 @@ regulations of F1 and past as well as recent news.
 **Workflow**
 
   <p align="center">
-  <img src="docs/images/F-One_Workflow.png" width="400">
+  <img src="docs/images/F-One_Workflow_Orizzontal.png" width="1000">
   </p>
 
 As the picture shows, the project may be divided into seven main phases:
 
- * [**Phase 1**: Training of the model](#phase-1-training-of-the-model)
- * [**Phase 2**: Input image segmentation and digits extraction](#phase-2-input-image-segmentation-and-digits-extraction)
- * [**Phase 3**: Long number recognition](#phase-3-long-number-recognition)
- * [**Phase 4**: Long number recognition](#phase-3-long-number-recognition)
- * [**Phase 5**: Long number recognition](#phase-3-long-number-recognition)
- * [**Phase 6**: Long number recognition](#phase-3-long-number-recognition)
- * [**Phase 7**: Long number recognition](#phase-3-long-number-recognition)
+ * [**Phase 1**: PDF Processing](#pahse-1-pdf-processing)
+ * [**Phase 2**: Vector Store Creation](#phase-2-vector-store-creation)
+ * [**Phase 3**: LangChain Agent Development](#phase-3-langchain-agent-development)
+ * [**Phase 4**: Dialogflow CX Agent Initialization](#phase-4-dialogflow-cx-agent-initialization)
+ * [**Phase 5**: Flask Application Creation](#phase-5-flask-application-creation)
+ * [**Phase 6**: Website Creation](#phase-6-website-creation)
+ * [**Phase 7**: Response Quality Evaluation](#phase-7-response-quality-evaluation)
  
+### Phase 1: PDF Processing
+
+### Phase 2: Vector Store Creation
+
+### Phase 3: LangChain Agent Development
+
+### Phase 4: Dialogflow CX Agent Initialization
+
+### Phase 5: Flask Application Creation
+
+### Phase 6: Website Creation
+
+### Phase 7: Response Quality Evaluation
+
 
 ## Dev-Setup
 Prerequisites:
