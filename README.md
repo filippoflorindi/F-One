@@ -18,7 +18,7 @@ Prerequisites:
 
 ```
 
-Reference [example.env]() to create `.env` file
+Reference [example.env](https://github.com/filippoflorindi/F-One/blob/main/F-One/example.env) to create `.env` file
 ```python
 GOOGLE_CSE_ID = ""
 GOOGLE_API_KEY = ""
