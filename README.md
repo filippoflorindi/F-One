@@ -53,28 +53,17 @@ Finally, in the conclusive and seventh step, I conducted an evaluation of the qu
 
 
 ## Dev-Setup
-Prerequisites:
+Pre-Requisites:
 - [Google CSE ID](https://programmablesearchengine.google.com/about/) - Free
 - [Google API Key](https://cloud.google.com/docs/authentication/api-keys?hl=it) - Free
 - [OpenAI API Key](https://platform.openai.com/account/api-keys) - Billing Required
 - [Hugging Face Hub API Token](https://huggingface.co/docs/hub/index) - Free
 - [Inspiredco API Key](https://docs.inspiredco.ai/critique/getting_started.html) - Free
-- [Dialogflow 
+- [Dialogflow CX Agent](https://cloud.google.com/dialogflow/cx/docs) - Billing Required
 
 ## Requirements
 Install dependencies:
 ```pip install -r requirements.txt```
-
-
-
-Reference [`example.env`](https://github.com/filippoflorindi/F-One/blob/main/F-One/example.env) to create `.env` file
-```python
-GOOGLE_CSE_ID = ""
-GOOGLE_API_KEY = ""
-OPENAI_API_KEY = ""      
-HUGGINGFACEHUB_API_TOKEN = "" 
-INSPIREDCO_API_KEY = ""
-```
 
 ## Credits
 
