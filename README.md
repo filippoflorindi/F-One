@@ -69,7 +69,6 @@ Install dependencies:
 
 ```
 .
-
 ├── F-One
 │   ├── Google Cloud Credentials
 │   |   └── dialogflow_CX_agent_secrets.json
