@@ -14,7 +14,7 @@ regulations of F1 and past as well as recent news.
 **Workflow**
 
   <p align="center">
-  <img src="docs/images/F-One_Workflow_Orizzontal.png" width="1000">
+  <img src="docs/images/F-One_Workflow_Horizontal.png" width="1000">
   </p>
 
 As the picture shows, the project may be divided into seven main phases:
