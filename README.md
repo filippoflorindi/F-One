@@ -9,12 +9,6 @@ regulations of F1 and past as well as recent news.
 
 ---
 
-  <p align="center">
-  <img src="docs/images/Website_with_F-One.png" width="1000">
-  </p>
-  
----
-
 ## Project description
 
 **Workflow**
@@ -25,7 +19,7 @@ regulations of F1 and past as well as recent news.
 
 As the picture shows, the project may be divided into seven main phases:
 
- * [**Phase 1**: PDF Processing](#pahse-1-pdf-processing)
+ * [**Phase 1**: PDF Processing](#phase-1-pdf-processing)
  * [**Phase 2**: Vector Store Creation](#phase-2-vector-store-creation)
  * [**Phase 3**: LangChain Agent Development](#phase-3-langchain-agent-development)
  * [**Phase 4**: Dialogflow CX Agent Initialization](#phase-4-dialogflow-cx-agent-initialization)
@@ -46,6 +40,14 @@ As the picture shows, the project may be divided into seven main phases:
 ### Phase 6: Website Creation
 
 ### Phase 7: Response Quality Evaluation
+
+---
+
+  <p align="center">
+  <img src="docs/images/Website_with_F-One.png" width="1000">
+  </p>
+  
+---
 
 
 ## Dev-Setup
