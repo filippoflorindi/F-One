@@ -127,6 +127,8 @@ Install dependencies:
 │   |   ├── Website_with_F-One.png
 │   |   └── Website_with_F-One_Zoom.png
 │   └── F-One Presentation.pdf
+├── evaluation dataset
+│   └── dataset.txt
 ├── vector store
 │   ├── index.faiss
 │   └── index.pkl
