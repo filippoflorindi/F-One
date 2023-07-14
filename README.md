@@ -119,6 +119,8 @@ Install dependencies:
 │   └── fia_formula_1_financial_regulations_iss.14_.pdf
 ├── docs
 │   ├── images
+│   |   ├── F-One_Evaluation_Results.png
+│   |   ├── F-One_Flask_Application.png
 │   |   ├── F-One_Schema.png
 │   |   ├── F-One_Workflow.png
 │   |   ├── F-One_Workflow_Horizontal.png
