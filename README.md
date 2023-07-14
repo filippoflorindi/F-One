@@ -141,7 +141,8 @@ Install dependencies:
 ## Credits
 
 The F-One Chatbot was developed by [Filippo Florindi](https://github.com/filippoflorindi).
-- E-mail: [filippo.florindi@gmail.com][mail]
+- E-mail: [filippo.florindi@gmail.com](mailto:filippo.florindi@gmail.com)
+- GitHub: [https://github.com/filippoflorindi][github]
 - LinkedIn: [https://www.linkedin.com/in/filippo-florindi-130483259][linkedin]
 
 ## License
@@ -153,5 +154,5 @@ Do not Redistribute!
 Link to this project: [https://github.com/filippoflorindi/F-One][project]
 
 [project]: https://github.com/filippoflorindi/F-One
-[mail]: filippo.florindi@gmail.com
+[github]: https://github.com/filippoflorindi
 [linkedin]: https://www.linkedin.com/in/filippo-florindi-130483259
