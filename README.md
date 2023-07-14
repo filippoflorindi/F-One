@@ -57,6 +57,12 @@ consisting of tuples, each comprising:
 This way, it was possible to compare the answers provided by the Chatbot, for a given question with the correct ones and calculate the evaluation metrics. The dataset comprises a 
 total of 30 tuples, including 10 tuples each related to the Sporting Regulation, Technical Regulation, and Financial Regulation, respectively. In the following are present the tables showing the scores that I obtained for the various parameters for the 30 tuples. The scripts that execute this part are: [`evaluation.py`](https://github.com/filippoflorindi/F-One/blob/main/F-One/evaluation.py) and [`evaluation_unieval.ipynb`](https://github.com/filippoflorindi/F-One/blob/main/F-One/evaluation_unieval.ipynb).
 
+**Evaluation Results**
+
+  <p align="center">
+  <img src="docs/images/F-One_Evaluation_Results.png" width="1000">
+  </p>
+
   
 ---
 
