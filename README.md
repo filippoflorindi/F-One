@@ -49,6 +49,12 @@ In this phase, I initialized the Dialogflow CX Agent. This agent is responsible 
 ### Phase 5: Flask Application Creation
 This phase involved creating a Flask application that integrates the LangChain Agent with the Dialogflow CX Agent through a Webhook. The script that runs this part is [`main.py`](https://github.com/filippoflorindi/F-One/blob/main/F-One/main.py).
 
+**F-One Flask Application**
+
+  <p align="center">
+  <img src="docs/images/F-One_Flask_Application.png" width="1000">
+  </p>
+
 ### Phase 6: Website Creation
 In this phase, I created the F-One website and subsequently made it public via GitHub Pages. The website provides a user-friendly interface for interacting with F-One and obtaining desired information about Formula 1. The folder containing the HTML and CSS scripts for the website is [`web site`](https://github.com/filippoflorindi/F-One/tree/main/web%20site).
 
