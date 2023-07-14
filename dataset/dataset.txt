@@ -1,0 +1,198 @@
+TUPLE FORMULA 1 SPORTING REGULATIONS 2023
+
+TUPLE 1
+Query: Who organise the Formula One World Championship?
+Real Answer or information extracted from the PDF Regulation: The FIA will organise the FIA Formula One World Championship (the Championship) which is the property of the FIA and comprises two titles of World Champion, one for drivers and one for constructors. 
+Predicted Answer: The FIA (Fédération Internationale de l’Automobile) organizes the Formula One World Championship.
+
+TUPLE 2
+Query: In which period the FIA can submits the applications to compete in the Championship?
+Real Answer or information extracted from the PDF Regulation:  Applications to compete in the Championship may be submitted to the FIA during the period 21 October to 1 November inclusive of the year prior to the year to which the application relates.
+Predicted Answer: Applications to compete in the Championship may be submitted to the FIA during the period 21 October to 1 November inclusive of the year prior to the year to which the application relates.
+
+TUPLE 3
+Query: What are the regulations about Testing of Current Cars (TCC)?
+Real Answer or information extracted from the PDF Regulation:  Testing of Current Cars (TCC):
+(a) Testing of Current Cars (TCC) shall be defined as any track running time, not part of a Competition, in which a Competitor entered in the Championship participates (or in which a third party participates on behalf of a Competitor or a supplier of a homologated power unit), using cars which were designed and constructed in order to comply with the Technical Regulations of the Championship, or those of the preceding year’s or the following year’s Championship. No Competitor may sell or make available any such car of the current year to any third party without the prior authorisation of the FIA.
+(b) During any TCC, cars must be fitted with the FIA ECU required by Article 8.3 of the Technical Regulations.
+(c) Red flag and end-of-session procedures must be respected.
+(d) The fuel handling procedures set out in Article 36 must be respected.
+(e) No other type of automobile is permitted on the track.
+(f) Cars being driven by drivers who do not qualify for a Super Licence must be fitted with a green main rear light which must be illuminated at all times the car is on the track.
+(g) Every reasonable effort should be made to ensure that the recommendations concerning emergency services detailed in Supplement 1 of Appendix H to the Code are followed.
+Predicted Answer: Testing of Current Cars (TCC) refers to any track running time, not part of a competition, in which a Competitor entered in the Championship participates using cars that comply with the Technical Regulations of the Championship, or those of the preceding year’s or the following year’s Championship. During any TCC, cars must be fitted with the FIA ECU required by Article 8.3 of the Technical Regulations. TCC’s may only take place on tracks located in Europe (unless agreed by the majority of the Competitors and the FIA, or as specified in Article 10.8e)) and may never occur whilst a Championship Competition is taking place. TCC’s shall be limited to the opportunities detailed in Article 10.8.
+
+TUPLE 4
+Query: What are the regulations about TCC Promotional Events (PE)?
+Real Answer or information extracted from the PDF Regulation:  TCC Promotional Events (PE)
+(a) A Promotional Event (PE) shall be defined as an event in which a Competitor participates purely for marketing or promotional purposes.
+(b) A PE must not exceed 100km.
+(c) During any PE, cars must be fitted with the FIA ECU required by Article 8.3 of the Technical Regulations.
+(d) Only tyres manufactured specifically for this purpose by the appointed tyre supplier may be used.
+(e) Each Competitor will be permitted to carry out two (2) PE’s with the cars defined in Article 10.1 which will not be considered a TCC.
+Predicted Answer: TCC Promotional Events (PE) are events in which a Competitor participates purely for marketing or promotional purposes and must not exceed 100km. During any PE, cars must be fitted with the FIA ECU required by Article 8.3 of the Technical Regulations, and only tyres manufactured specifically for this purpose by the appointed tyre supplier may be used. Each Competitor will be permitted to carry out two (2) PE’s with the cars defined in Article 10.1 which will not be considered a TCC.
+
+TUPLE 5
+Query: What are the regulations about Return of Tyres?
+Real Answer or information extracted from the PDF Regulation:  Return of Tyres 
+(a) The official return of tyres will be made electronically using the FIA Race Team Client. In the event of an issue with the system, and when instructed to do so by the FIA, each Competitor will be requested to provide the tyre return data in a CSV file format via email.
+(b) Any set of electronically returned tyres must also be physically returned to the appointed tyre supplier before the start of the following session.
+Predicted Answer: The Return of Tyres regulations state that each Competitor must return the tyre data electronically using the FIA Race Team Client. In case of any issues with the system, the Competitor will be requested to provide the tyre return data in a CSV file format via email. Any set of electronically returned tyres must also be physically returned to the appointed tyre supplier before the start of the following session. There are specific regulations for the return of mandatory Q3 tyre specification and mandatory race specification(s) before the race and after each practice session. All tyres must be operated in accordance with the prescriptions issued prior to each Competition by the FIA and the appointed tyre supplier.
+
+TUPLE 6
+Query: How many drivers can a Competitor use during a Championship?
+Real Answer or information extracted from the PDF Regulation:  During a Championship each Competitor will be permitted to use a maximum of four (4) drivers in races.
+Predicted Answer: A Competitor can use a maximum of four (4) drivers during a Championship.
+
+TUPLE 7
+Query: What is the “pit entry”?
+Real Answer or information extracted from the PDF Regulation:  The section of track between the first safety car line and the beginning of the pit lane will be designated the “pit entry”.
+Predicted Answer: The “pit entry” is the section of track between the first safety car line and the beginning of the pit lane in a race track.
+
+TUPLE 8
+Query: In how many lines will be divided the pit lane? 
+Real Answer or information extracted from the PDF Regulation:  The pit lane will be divided into two lanes, the lane closest to the pit wall will be designated the “fast lane” and the lane closest to the garages will be designated the “inner lane”. 
+Predicted Answer: The pit lane will be divided into two lanes. The lane closest to the pit wall will be designated the “fast lane” and the lane closest to the garages will be designated the “inner lane”.
+
+TUPLE 9
+Query: What is the Virtual Safety Car (VSC) procedure?
+Real Answer or information extracted from the PDF Regulation:  The VSC procedure may be initiated to neutralise a practice session, sprint session or a race upon the order of the clerk of the course. 
+(a) It will normally be used when double waved yellow flags are needed on any section of track and Competitors or officials may be in danger, but the circumstances are not such as to warrant use of the safety car itself.
+Predicted Answer: The Virtual Safety Car (VSC) procedure is a system used in motorsports to neutralize a practice session, sprint session, or a race upon the order of the clerk of the course. It is used when double waved yellow flags are needed on any section of the track and competitors or officials may be in danger, but the circumstances are not such as to warrant use of the safety car itself. When the VSC procedure is initiated, a message “VSC DEPLOYED” will be sent to all competitors using the official messaging system, and all FIA light panels will display “VSC”. During the VSC procedure, no car may be driven unnecessarily slowly, erratically, or in a manner that could be deemed potentially dangerous to other drivers or any other person. With the exception of certain cases, no driver may overtake another car on the track while the VSC procedure is in use.
+
+TUPLE 10
+Query: What is the “ROLLING START” message?
+Real Answer or information extracted from the PDF Regulation:  If, after one or more formation laps behind the safety car, the track conditions are considered unsuitable to start the sprint session or the race from a standing start, the message “ROLLING START” will be sent to all Competitors using the official messaging system, all FIA light panels will display “RS” and the car’s orange lights will be extinguished. This will be the signal to the Competitors and drivers that it will be entering the pit lane at the end of that lap. At this point the first car in line behind the safety car may dictate the pace and, if necessary, fall more than ten (10) car lengths behind it. As the safety car is approaching the pit entry the FIA light panels will be extinguished and a green flag and/or green light panel will be displayed at the Line. No driver may overtake another car on the track until he passes the Line (see Article 5.3) for the first time after the safety car has returned to the pits. The sprint session or the race will be deemed to have started when the leading car crosses the Line after the safety car has returned to the pits.
+Predicted Answer: The “ROLLING START” message is sent to all competitors using the official messaging system when the track conditions are considered unsuitable to resume the sprint session or the race from a standing start. It is also used when the clerk of the course decides it is safe to call in the safety car. In a rolling start, the first car in line behind the safety car may dictate the pace and, if necessary, fall more than ten (10) car lengths behind it.
+
+
+APPENDIX B
+TUPLE FORMULA 1 TECHNICAL REGULATIONS 2023
+
+TUPLE 1
+Query: What is the permitted wheel bodywork as defined in Article 3.13?
+Real Answer or information extracted from the PDF Regulation: The only wheel bodywork permitted is the one defined under Article 3.13, except for wheel covers defined in Article 3.13.7.
+Predicted Answer: The only wheel bodywork permitted is that defined under Article 3.13. With the exception of wheel covers, as defined in Article 3.13.7, the frame of reference for every part of the car classified as Wheel Bodywork is the corresponding upright structure and the corresponding coordinate system defined in Article 2.11.3.
+
+TUPLE 2
+Query: What are the regulations about Engine Cover?
+Real Answer or information extracted from the PDF Regulation:  Bodywork declared as “Engine Cover” must:
+(a) Lie within RV-RBW-EC.
+(b) Be arranged such that when viewed from the side, no part of RS-RBW-EC that lies within RV-RBW-EC may be visible.
+Predicted Answer: According to the regulations, the bodywork declared as “Engine Cover” must lie within RV-RBW-EC and must be arranged in such a way that when viewed from the side, no part of RS-RBW-EC that lies within RV-RBW-EC may be visible. Additionally, there are certain restrictions on engine, gearbox, or radiator covers while engines are being changed or moved around the garage, covers over spare wings when they are on a stand in the pit lane not being used, and parts such as spare floors, fuel rigs, or tool trolleys may not be used as an obstruction. However, warming or heat retaining covers for the engine and gearbox on the grid, a rear wing cover designed specifically to protect a mechanic starting the car from fire, covers over the tire manufacturer’s code numbers, and covers over damaged cars or components are permitted.
+
+TUPLE 3
+Query: What are the regulation about Rear Wing Endplate?
+Real Answer or information extracted from the PDF Regulation:  Once the Rear Wing Endplate Body and Rear Wing Tip are fully defined they must be joined to create one unified volume with no remaining overlapping surfaces. The resultant volume, known as the Rear Wing Endplate must be arranged such that, when viewed from the side of the car, no part of RS-RW-RWEP, may be visible. Furthermore, the external surfaces at the boundaries between adjacent sections of the Rear Wing Endplate Body and Rear Wing Tip must maintain both continuity and tangency in any X, Y or Z plane.
+Predicted Answer: The Rear Wing Endplate must be fully defined and the external surfaces at the boundaries between adjacent sections of the Rear Wing Endplate and Rear Wing Profiles must maintain both continuity and tangency in any X, Y or Z plane. The Rear Wing Endplate Body and Rear Wing Tip must be joined to create one unified volume with no remaining overlapping surfaces. The Rear Wing Endplate must be arranged such that, when viewed from the side of the car, no part of RS-RW-RWEP may be visible. The Rear Wing Endplate Body must lie within RV-RWEP-BODY, be a single volume with no apertures, and in any X or Z plane contain only one closed section. Furthermore, any such section, on any X or Z plane, must not contain an external concave radius of curvature smaller than 100mm. Once the Rear Wing Endplate and Rear Wing Beam are fully defined, the Rear Wing Beam must be trimmed to the Rear Wing Endplate such that no overlapping surfaces remain. Any Rear Wing Beam bodywork remaining outboard of the Rear Wing Endplate must be discarded. A fillet radius, no greater than 10mm, may be applied along the intersections between these volumes.
+
+TUPLE 4
+Query: Which is the limit of the angle between the normal to any point of the surface of a suspension fairing and a plane normal to the corresponding suspension member’s load line ?
+Real Answer or information extracted from the PDF Regulation:  The angle between the normal to any point of the surface of a suspension fairing and a plane normal to the corresponding suspension member’s load line must not exceed 15deg. Legitimate exceptions to this constraint will be accepted close to the inner and outer attachment points, or close to the junction between suspension members that share an attachment.
+Predicted Answer: The angle between the normal to any point of the surface of a suspension fairing and a plane normal to the corresponding suspension member’s load line must not exceed 15 degrees.
+
+TUPLE 5
+Query: What are all the limitations imposed about the Rear Wing Flap (RW Flap) Flexibility?
+Real Answer or information extracted from the PDF Regulation:  The RW Flap may deflect no more than 7mm horizontally when a 500N load is applied horizontally. The load will be applied in the plane Z=875 at one of three separate points which lie within 50mm of the car centre plane and 270mm either side of it. The loads will be applied in a rearward direction using a suitable 25mm wide adaptor which must be supplied by the relevant team. The deflection will be measured along the loading axis and relative to the forward part of the Rear Wing Mainplane at the same Y-station.
+Predicted Answer: The RW Flap may deflect no more than 7mm horizontally when a 500N load is applied horizontally. The load will be applied in the plane Z=875 at one of three separate points which lie within 50mm of the car centre plane and 270mm either side of it. The loads will be applied in a rearward direction using a suitable 25mm wide adaptor which must be supplied by the relevant team. The deflection will be measured along the loading axis and relative to the forward part of the Rear Wing Mainplane at the same Y-station. The tests defined in this article may be performed with the RW Flap removed. In such cases, the permitted deflections will be 25% higher than those defined in (a) and (b).
+
+TUPLE 6
+Query: What are the regulations about Tyre specification?
+Real Answer or information extracted from the PDF Regulation:  Tyre specifications will be determined by the tyre supplier, in agreement with the FIA, no later than 1 September of the previous season for the construction and 15 December for the range of compounds to be used during the Championship season. Once determined in this way, the specification of the tyres will not be changed without the agreement of the Formula One Commission. Notwithstanding the above, the FIA may decide to change the specification during the Championship season for safety reasons without notice or delay.
+Predicted Answer: The tyre specifications will be determined by the tyre supplier, in agreement with the FIA, no later than 1 September of the previous season for the construction and 15 December for the range of compounds to be used during the Championship season. Once determined in this way, the specification of the tyres will not be changed without the agreement of the Formula One Commission. However, the FIA may decide to change the specification during the Championship season for safety reasons without notice or delay. The single tyre manufacturer (the appointed tyre supplier) appointed by the FIA must undertake to provide three specifications of dry-weather tyre at each Competition, each of which must be visibly distinguishable from one another when a car is on the track. At certain Competitions, one additional specification of dry-weather tyre may be made available to all Competitors for evaluation purposes following a recommendation to the FIA from the appointed tyre supplier.
+
+TUPLE 7
+Query: What is the definition of Brake calipers?
+Real Answer or information extracted from the PDF Regulation:  Brake calipers are defined as the parts of the braking system outside the survival cell, other than brake discs, brake pads, caliper pistons, components directly associated with the system referred to in Article 11.6, brake hoses and fittings, which are stressed when subjected to the braking pressure. Bolts or studs which are used for attachment are not considered to be part of the brake calipers.
+Predicted Answer: Brake calipers are defined as the parts of the braking system outside the survival cell, other than brake discs, brake pads, caliper pistons, components directly associated with the system referred to in Article 11.6, brake hoses and fittings, which are stressed when subjected to the braking pressure.
+
+TUPLE 8
+Query: What is the number of rear lights that all cars must have operating for the duration of the competition? And which are their features?
+Real Answer or information extracted from the PDF Regulation:  All cars must have three rear lights in working order throughout the Competition which: have been supplied by FIA designated manufacturers, are clearly visible from the rear, can be switched on by the driver when seated normally in the car.
+Predicted Answer: All cars must have three rear lights in working order throughout the competition. These lights must be supplied by FIA designated manufacturers, clearly visible from the rear, and can be switched on by the driver when seated normally in the car. Additionally, the lights described in Article 14.3 of the Technical Regulations must be illuminated at all times when using intermediate or wet-weather tyres.
+
+TUPLE 9
+Query: What are Listed Team Components?
+Real Answer or information extracted from the PDF Regulation:  “Listed Team Components” (LTC) are components whose design, manufacture and Intellectual Property is owned and/or controlled by a single Competitor or its agents on an exclusive basis (including, without limitation, the components identified as such in Appendix 5).
+Predicted Answer: Listed Team Components (LTC) are components used in Formula One cars and equipment used to support a Competitor’s operations during a Championship that are designed, manufactured, and owned or controlled by a single Competitor or its agents on an exclusive basis. This includes all Aerodynamic Components described in Article 3 of the Technical Regulations unless specifically defined as Standard Supply Component (SSC) or Open Source Component (OSC).
+
+TUPLE 10
+Query: How should be designed the brake system?
+Real Answer or information extracted from the PDF Regulation:  The brake system must be designed so that within each circuit, the forces applied to the brake pads are the same magnitude and act as opposing pairs on a given brake disc.
+Predicted Answer: The brake system must be designed so that within each circuit, the forces applied to the brake pads are the same magnitude and act as opposing pairs on a given brake disc. The system must consist of one pedal which operates two master cylinders. On the outlet side of the master cylinders, the system must comprise two hydraulic circuits, one circuit from one master cylinder to operate the two front wheels, the other circuit from the other master cylinder to operate the two rear wheels. The rear brake control system described in Article 11.6 will be regarded as part of the circuit that operates the rear wheels. This system must be designed so that if a failure occurs in one circuit, the pedal will still operate the brakes in the other.
+
+
+
+APPENDIX C
+TUPLE FORMULA 1 FINANCIAL REGULATIONS 2023
+
+TUPLE 1
+Query: How is the Reporting Group defined for the purpose of reporting Total Costs?
+Real Answer or information extracted from the PDF Regulation: The Reporting Group, for the purpose of reporting Total Costs, consists of the F1 Team and additional entities within the F1 Team’s Legal Group Structure. These additional entities are included when the F1 Team has incurred less than 95% of the costs of the F1 Activities undertaken by or on behalf of the team in the Reporting Period. The determination of these additional entities is done in accordance with Article 2.6.
+Predicted Answer: For the purposes of reporting Total Costs of the Reporting Group, an F1 Team’s Reporting Group shall comprise the F1 Team together with, where the F1 Team has incurred less than 98% of the costs of the F1 Activities undertaken by or on behalf of the F1 Team in the Reporting Period, such additional entities within the F1 Team’s Legal Group Structure as are determined in accordance with Article 2.6.
+
+TUPLE 2
+Query: What documentation must an F1 Team submit to the Cost Cap Administration by the Full Year Reporting Deadline?
+Real Answer or information extracted from the PDF Regulation: An F1 Team must submit the following to the Cost Cap Administration, known as the Full Year Reporting Documentation:
+(a) Reporting Group Documentation,
+(b) Full Year Financial Reporting Documentation,
+(c) Declarations,
+(d) an assessment report provided by the Independent Audit Firm that signs the F1 Team’s Audited Annual Financial Statements, regarding the completeness and accuracy of the Full Year Reporting Documentation, in the format prescribed by the Cost Cap Administration,
+(e) if applicable, a Findings Report in line with the requirements of the Determination referred to at Article 4.1(m), if the F1 Team chooses to make a downward Adjustment pursuant to Article 4.1(m).
+Predicted Answer: An F1 Team must submit the following documentation to the Cost Cap Administration by the Full Year Reporting Deadline:
+(a) the Reporting Group Documentation;
+(b) the Full Year Financial Reporting Documentation;
+(c) the Declarations; and
+(d) an assessment report provided by the same Independent Audit Firm that signs the F1 Team’s Audited Annual Financial Statements, in the format prescribed by the Cost Cap Administration from time to time via a Determination, in respect of the completeness and accuracy of the Full Year Reporting Documentation submitted by the F1 Team.
+
+TUPLE 3
+Query: What process can the CFO of an F1 Team initiate to clarify the operation or interpretation of the Financial Regulations?
+Real Answer or information extracted from the PDF Regulation: The CFO of an F1 Team can submit a written request to the Cost Cap Administration to clarify the operation or interpretation of the Financial Regulations.
+Predicted Answer: The CFO of an F1 Team may submit a written request to the Cost Cap Administration to clarify the operation or interpretation of the Financial Regulations. The Cost Cap Administration will respond in writing to any such request and will make available to the CFOs of all other F1 Teams a summary of the written request along with the response, omitting any Confidential Information.
+
+TUPLE 4
+Query: What actions can the Cost Cap Administration take during a Reporting Period?
+Real Answer or information extracted from the PDF Regulation: The Cost Cap Administration can take the following actions during a Reporting Period:
+(a) Require an F1 Team to provide information and/or documentation to review the controls being applied by the team to ensure compliance with the Financial Regulations.
+(b) Review any Related Party Transaction, Exchange Transaction, Inter-Team Transaction, or Power Unit Transaction.
+(c) Assist in identifying any part of the Financial Regulations that may require clarification through the issuance of guidance.
+(d) Mitigate the risk of an F1 Team submitting incomplete, inaccurate, or misleading Reporting Documentation.
+Predicted Answer: During a Reporting Period, the Cost Cap Administration can require an F1 Team to provide information and/or documentation to review the controls being applied by that F1 Team to ensure that F1 Team’s compliance with these Financial Regulations, reviewing any Related Party Transaction, Exchange Transaction, Inter-Team Transaction, or Power Unit Transaction, assisting in identifying any part of these Financial Regulations which may require clarification by the issuance of guidance, and mitigating the risk of an F1 Team submitting incomplete, inaccurate or misleading Reporting Documentation. The Cost Cap Administration will review the Reporting Documentation submitted by an F1 Team to assess whether that F1 Team has complied with these Financial Regulations. The Cost Cap Administration will monitor compliance with these Financial Regulations, investigate instances of suspected non-compliance, and take appropriate enforcement action in respect of any breaches of these Financial Regulations. The Cost Cap Administration may conduct investigations into an F1 Team’s compliance with these Financial Regulations, assisted, if it chooses, by an Independent Audit Firm.
+
+TUPLE 5
+Query: What actions can the Cost Cap Administration take if an F1 Team commits a Procedural Breach or a Minor Overspend Breach?
+Real Answer or information extracted from the PDF Regulation: If the Cost Cap Administration determines that an F1 Team has committed a Procedural Breach or a Minor Overspend Breach, they may propose sanctions for the breach. These sanctions should be based on factors such as aggravating and mitigating factors, as outlined in the Financial Regulations. If the F1 Team accepts the breach and the proposed sanctions, the Cost Cap Administration may enter into an accepted breach agreement (ABA) with the team, which reflects the acceptance. There is no right of appeal in relation to the Cost Cap Administration’s decision regarding entering into an ABA or not.
+
+Predicted Answer: If an F1 Team commits a Procedural Breach or a Minor Overspend Breach, the Cost Cap Administration may propose sanctions for such breach, which should be based on the same factors, including aggravating and mitigating factors, that the Cost Cap Adjudication Panel would take into account under these Financial Regulations for such breach pursuant to Article 8. If the F1 Team accepts the breach and the proposed sanctions, the Cost Cap Administration may enter into an accepted breach agreement (an “ABA”) with the F1 Team reflecting the acceptance. There shall be no right of appeal in respect of any decision by the Cost Cap Administration as to whether to enter into an ABA or not. In the event the Cost Cap Adjudication Panel determines that an F1 Team has committed a Minor Overspend Breach, the Cost Cap Adjudication Panel may impose a Financial Penalty and/or any Minor Sporting Penalties.
+
+TUPLE 6
+Query: When does a “Material Overspend Breach” occur?
+Real Answer or information extracted from the PDF Regulation: A “Material Overspend Breach” occurs in the following cases:
+(a) When an F1 Team submits its Full Year Reporting Documentation, and the Relevant Costs reported therein exceed the Cost Cap by 5% or more.
+(b) After reviewing an F1 Team’s Full Year Reporting Documentation, including any investigations conducted by the Cost Cap Administration or the appointed Independent Audit Firm, if it is determined that the F1 Team’s Relevant Costs exceed the Cost Cap by 5% or more.
+Predicted Answer: A “Material Overspend Breach” occurs when an F1 Team submits its Full Year Reporting Documentation and Relevant Costs reported therein exceed the Cost Cap by 5% or more, or following the review of an F1 Team’s Full Year Reporting Documentation, the F1 Team’s Relevant Costs have been determined to exceed the Cost Cap by 5% or more.
+
+TUPLE 7
+Query: What is the timeframe for payment of fines under the Financial Regulations?
+Real Answer or information extracted from the PDF Regulation: Payment of all fines under the Financial Regulations must be made within 30 days from the date of the relevant decision.
+Predicted Answer: Payment of all fines under the Financial Regulations must be made within 30 days of the date of the relevant decision. However, if an appeal is made, payment shall be suspended until the outcome of the appeal is determined.
+
+TUPLE 8
+Query: What are the financial compliance requirements for an F1 Team granted an FIA Super Licence?
+Real Answer or information extracted from the PDF Regulation: An F1 Team that has been granted an FIA Super Licence for participation in the Championship must comply with the Financial Regulations in respect of the Full Year Reporting Period ending on 31 December immediately prior to the first Championship season in which the team participates. However, the team is exempt from complying with Article 5.2 during that specific period.
+Predicted Answer: An F1 Team that has been granted an FIA Super Licence for participation in the Championship must comply with the Financial Regulations in respect of the Full Year Reporting Period ending on 31 December immediately prior to the first Championship season in which such F1 Team participates, except that it shall not be required to comply with Article 5.2 in respect of that period. Each F1 Team must ensure that all relevant Personnel are appropriately informed and trained with respect to the ways in which their areas of responsibility may impact the F1 Team’s compliance with these Financial Regulations. Each F1 Team must ensure that the FIA ethics and compliance policy in force from time to time with respect to these Financial Regulations is clearly communicated to all Personnel.
+
+TUPLE 9
+Query: How is the “Capital Expenditure Amount” defined?
+Real Answer or information extracted from the PDF Regulation: The “Capital Expenditure Amount” is defined as follows:
+(a) For the Full Year Reporting Period ending on 31 December 2022, it is the aggregate amount of Capital Expenditure for that period and the preceding Full Year Reporting Period, minus any Adjustment made pursuant to Article 4.1(e) for the preceding Full Year Reporting Period.
+(b) For the Full Year Reporting Period ending on 31 December 2023, it is the aggregate amount of Capital Expenditure for that period and the preceding two Full Year Reporting Periods, minus the cumulative amount of Adjustments made pursuant to Article 4.1(e) for the preceding two Full Year Reporting Periods.
+(c) For the Full Year Reporting Period ending on 31 December 2024 and each subsequent Full Year Reporting Period, it is the aggregate amount of Capital Expenditure for the relevant period and the three preceding Full Year Reporting Periods, minus the cumulative amount of Adjustments made pursuant to Article 4.1(e) for the preceding three Full Year Reporting Periods.
+Predicted Answer: The “Capital Expenditure Amount” is defined as the aggregate amount of Capital Expenditure for a Full Year Reporting Period and the preceding Full Year Reporting Period, less the amount of the Adjustment made pursuant to Article 4.1(e) in respect of the preceding Full Year Reporting Period. The definition varies depending on the Full Year Reporting Period, with different time periods being used for different years.
+
+TUPLE 10
+Query: What is meant by the term “Engineering Trailer”?
+Real Answer or information extracted from the PDF Regulation: The term “Engineering Trailer” refers to a branded temporary standalone structure that is brought into the paddock by an F1 Team. It includes any irremovable fixtures, fittings, and equipment integrated into the structure. The purpose of the Engineering Trailer is to provide a working environment for engineering activities during a Competition or Testing of Current Cars. It’s important to note that the definition excludes any structures, fixtures, fittings, or equipment that are constructed or installed into permanent or existing paddock buildings, such as the pit garages.
+Predicted Answer: “Engineering Trailer” means a branded temporary standalone structure, and any irremovable fixtures, fittings and equipment integrated into such structure that is brought into the paddock and constructed by an F1 Team to provide a working environment for engineering purposes during a Competition or Testing of Current Cars.
+
+
