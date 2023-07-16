@@ -44,10 +44,15 @@ This phase involved the development of the LangChain Agent. This process include
   </p>
 
 ### Phase 4: Dialogflow CX Agent Initialization
-In this phase, I initialized the Dialogflow CX Agent. This agent is responsible for managing conversations with users and coordinating the responses provided by F-One.
+In this phase, I initialized the Dialogflow CX Agent. Dialogflow allows for the expansion of Chatbot functionalities and the management of various aspects. 
+In the specific case of F-One, I modified the Start Page in the Default Start Flow through the Dialogflow CX console. The Start Page includes the Default Welcome Intent.  The Start Page also includes handlers for the sys.no-match-default and sys.no-input-default events. 
+First, I set the response that the Chatbot will provide when the Default Welcome Intent is recognized. This way, for all welcome messages sent by a user to F-One, the Chatbot will respond as follows: “Hi, my name is F-One and I’m here to assist you! What do you want to know about Formula 1?”.
+Next, to connect the LangChain Agent to the Dialogflow Agent and enable response generation, I created a webhook. I named the webhook as ‘f1-webhook’. 
+Next, I enabled a webhook calling in Dialogflow for both the sys.no-match-default and sys.no-input-default events. Since no new intent has been added in the Dialogflow CX Agent, all user expressions other than ‘Hi,’ ‘Hello,’ etc. will trigger the sys.no-match-default event, while all empty user expressions will trigger the sys.no-input-default event. Therefore, these two fallback events can be used to connect the two Agents.
+Furthermore, in fulfillment there is a field associated with the webhook, called the tag. In the Dialogflow CX Agent that I created for F-One, the tag that is used is “f1”. These steps alone do not make everything work. It will be necessary to implement a locally executed application to combine the two Agents. The webhook only serves as a bridge for the connection.
 
 ### Phase 5: Flask Application Creation
-This phase involved creating a Flask application that integrates the LangChain Agent with the Dialogflow CX Agent through a Webhook. The script that runs this part is [`main.py`](https://github.com/filippoflorindi/F-One/blob/main/F-One/main.py).
+This phase involved creating a Flask application that integrates the LangChain Agent with the Dialogflow CX Agent through a Webhook. The script that runs this part is [`main.py`](https://github.com/filippoflorindi/F-One/blob/main/F-One/main.py). Once implemented, the Flask application is now ready to be run. However, since it is located on the local system, it is not accessible from the outside world. To integrate it as a webhook with Dialogflow CX, it needs to be made live/online. For this purpose, I used Ngrok.
 
 **F-One Flask Application**
 
